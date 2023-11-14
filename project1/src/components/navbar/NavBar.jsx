@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import DarkModeToggle from "../DarkModeToggle/darkModeToggle";
 
 const links = [
   {
@@ -38,13 +39,12 @@ const links = [
 const NavBar = () => {
   return (
     <div className="flex items-center justify-between ">
-      <div>
-        <Link href="/" className="font-bold text-2xl">
-          lamamia
-        </Link>
-      </div>
+      <Link href="/" className="font-bold text-2xl">
+        lamamia
+      </Link>
 
       <div className="flex space-x-4 ml-96">
+        <DarkModeToggle />
         {links.map((link) => (
           <Link key={link.id} href={link.url}>
             {link.title}

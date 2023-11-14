@@ -8,9 +8,9 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        websites: "url('/public/websites.jpg')",
+        illustration: "url('/public/illustration.png')",
+        apps: "url('/public/apps.jpg')",
       },
       backgroundColor: {
         "custom-black": "#111",
@@ -23,8 +23,10 @@ module.exports = {
       },
       height: {
         "h-250": "300px",
+        "h-50": "200px",
       },
     },
   },
   plugins: [],
+  darkMode: "class",
 };

@@ -8,7 +8,7 @@ const Portfolio = () => {
         <div className="items flex gap-12 ">
           <Link
             href="/portfolio/illustrations"
-            className="border-2 border-gray-400 rounded-md relative h-h-250 w-w-250 flex flex-col justify-end"
+            className="border-2 border-gray-400 rounded-md relative h-h-250 w-w-250 flex flex-col justify-end bg-illustration"
           >
             <span className="absolute bottom-0 right-0 text-3xl font-bold">
               Illustration
@@ -17,7 +17,7 @@ const Portfolio = () => {
 
           <Link
             href="/portfolio/websites"
-            className="border-2 border-gray-400 rounded-md relative h-h-250 w-w-250 flex flex-col justify-end"
+            className="border-2 border-gray-400 rounded-md relative h-h-250 w-w-250 flex flex-col justify-end bg-websites"
           >
             <span className=" absolute bottom-0 right-0 text-3xl font-bold">
               Websites
@@ -25,7 +25,7 @@ const Portfolio = () => {
           </Link>
           <Link
             href="/portfolio/application"
-            className="border-2 border-gray-400 rounded-md relative h-h-250 w-w-250 flex flex-col justify-end"
+            className="border-2 border-gray-400 rounded-md relative h-h-250 w-w-250 flex flex-col justify-end bg-cover !important bg-apps"
           >
             <span className=" absolute bottom-0 right-0 text-3xl font-bold">
               Application
